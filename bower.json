@@ -1,0 +1,44 @@
+{
+  "name": "hogan.js",
+  "description": "A mustache compiler.",
+  "version": "3.0.2",
+  "keywords": [
+    "mustache",
+    "template"
+  ],
+  "main": "lib/hogan.js",
+  "scripts": [
+    "lib/compiler.js",
+    "lib/hogan.js",
+    "lib/template.js"
+  ],
+  "homepage": "https://github.com/inway/hogan.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inway/hogan.js.git"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "ignore": [
+    "tools",
+    "wrappers",
+    ".*",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "authors": [
+    "Twitter Inc."
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "Apache",
+  "private": true
+}
